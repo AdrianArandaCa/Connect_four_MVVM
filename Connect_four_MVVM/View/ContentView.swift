@@ -81,7 +81,7 @@ struct PointView: View {
         VStack {
             ZStack {
                 CircleView(colorFill: colorFill)
-                Text (viewModel.yellowWins)
+                Text (colorFill == .red ? viewModel.redWins : viewModel.yellowWins)
                     .foregroundColor(.white)
                     .font(.system(size: 50, weight: .bold))
             }
