@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Connect_four_MVVM
+
+  Created by Dev on 25/11/23.
+  
+*/
+
+"USER_WIN" = "Ha ganado el jugador";
+"RED" = "Rojo";
+"YELLOW" = "Amarillo";
+"RESET" = "Reiniciar";
+"THE_PLAYER_HAS_WON" = "Ha ganado el jugador";
