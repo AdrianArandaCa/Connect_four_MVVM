@@ -24,7 +24,7 @@ struct ContentView: View {
                                       data: viewModel.arrows,
                                       showAlert: $showAlert,
                                       width: proxy.size.width * 0.9,
-                                      height: proxy.size.width * 0.5)
+                                      height: proxy.size.height * 0.5)
                     HStack(alignment: .bottom ,spacing: -18) {
                         LegBoardView(width: proxy.size.width * 0.05,
                                      height: proxy.size.height * 0.16,
