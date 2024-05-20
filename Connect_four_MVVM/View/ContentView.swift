@@ -23,21 +23,21 @@ struct ContentView: View {
                     ArrowButtonsStack(viewModel: viewModel,
                                       data: viewModel.arrows,
                                       showAlert: $showAlert,
-                                      width: proxy.size.width * 0.9,
+                                      width: proxy.size.width * 0.6,
                                       height: proxy.size.height * 0.5)
                     HStack(alignment: .bottom ,spacing: -18) {
-                        LegBoardView(width: proxy.size.width * 0.05,
+                        LegBoardView(width: proxy.size.width * 0.04,
                                      height: proxy.size.height * 0.16,
                                      aligmentRectangle: .trailing)
                         .zIndex(1)
                         
                         MatrixButtonStack(viewModel: viewModel,
                                           data: viewModel.board,
-                                          width: proxy.size.width * 0.9,
+                                          width: proxy.size.width * 0.6,
                                           heigth: proxy.size.height * 0.4)
                         .padding(.bottom, 32)
                         
-                        LegBoardView(width: proxy.size.width * 0.05,
+                        LegBoardView(width: proxy.size.width * 0.04,
                                      height: proxy.size.height * 0.16,
                                      aligmentRectangle: .leading)
                         .zIndex(1)
@@ -49,7 +49,7 @@ struct ContentView: View {
                         PointView(viewModel: viewModel,
                                   colorFill: .yellow)
                     }
-                    .frame(width: proxy.size.width * 0.5)
+                    .frame(width: proxy.size.width * 0.3)
                     Spacer()
                     ResetButton(viewModel: viewModel)
                     Spacer()
