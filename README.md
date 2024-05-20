@@ -9,3 +9,4 @@
 ## Tecnologías usadas
 * Swift
 * SwiftUI
+* Patrón MVVM
